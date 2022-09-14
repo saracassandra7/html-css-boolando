@@ -75,6 +75,7 @@ main .product{
   width: calc(100% / 3 - 30px);
   margin-bottom: 20px;
   position: relative;
+  min-width: 300px;
 }  
 
 
@@ -100,7 +101,7 @@ main span#bianco{
   color: white;
 }
 
-main .discount-50{
+main .discount{
   background-color: red;
   width: 50px;
   height: 30px;
@@ -122,6 +123,12 @@ main .sostenibilita{
   position: absolute;
   bottom: 100px;
   left: 70px;
+}
+
+main .sostenibilita#sei{
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
 }
 
   
