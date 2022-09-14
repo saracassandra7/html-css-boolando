@@ -13,9 +13,49 @@
   align-items: center;
 }
 
+/*header*/
 header{
   height: 50px;
   background-color: #ff6900;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+main{
+  padding-top: 40px;
+}
+
+/*menu*/
+header .menu ul{
+  display: flex;
+  list-style: none;
+}
+
+header .menu ul li{
+  padding: 5px;
+}
+
+header .menu ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+/*logo*/
+header img {
+  width: 100px;
+}
+
+/*icone*/
+header .icone{
+  color: white;
 }
 
 main{
