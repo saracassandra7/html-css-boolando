@@ -1,3 +1,4 @@
+/*generali*/
 *{
   margin: 0;
   padding: 0;
@@ -27,10 +28,6 @@ header{
   left: 0;
   width: 100%;
   z-index: 999;
-}
-
-main{
-  padding-top: 40px;
 }
 
 /*menu*/
@@ -63,9 +60,11 @@ header .icone{
   color: white;
 }
 
+/*main*/
 main{
   text-align: center;
   margin-top: 50px;
+  padding-top: 40px;
 }
 
 main .row{
@@ -82,6 +81,9 @@ main .product{
   min-width: 300px;
 }  
 
+main .photo{
+  cursor: pointer;
+}
 
 main .product .photo img {
   height: 500px;
@@ -135,8 +137,6 @@ main .sostenibilita#sei{
   left: 10px;
 }
 
-  
-
 main .product .description{
   height: 50px;
   text-align: left;
@@ -144,6 +144,7 @@ main .product .description{
   margin-bottom: 10px;
 }
 
+/*footer*/  
 footer{
   height: 90px;
   background-color: #1a1a1a;
@@ -170,3 +171,17 @@ footer i{
   padding: 2px;
 
 }
+
+/*hover*/
+main .photo-hover{
+  display: none;
+  position: absolute;
+  margin-right: 10px;
+  right: 0;
+  top: 0;
+}
+
+.product:hover .photo-hover{
+	display: block;
+}
+
