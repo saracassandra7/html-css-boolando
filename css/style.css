@@ -20,7 +20,7 @@ body{
 
 /*header*/
 header{
-  height: 50px;
+  height: 70px;
   background-color: #ff6900;
   display: flex;
   position: fixed;
@@ -28,6 +28,7 @@ header{
   left: 0;
   width: 100%;
   z-index: 999;
+  box-shadow: 0 1px 3px grey;
 }
 
 /*menu*/
@@ -69,7 +70,7 @@ main{
 
 main .row{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -142,6 +143,16 @@ main .product .description{
   text-align: left;
   padding-left: 10px;
   margin-bottom: 10px;
+  font-size: 0.85rem;
+}
+
+main .product .description p{
+  display: inline;
+}
+
+main .product .description .red{
+  color: red;
+  font-weight: bold;
 }
 
 /*footer*/  
